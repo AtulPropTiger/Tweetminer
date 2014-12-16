@@ -1,0 +1,14 @@
+1. SRC folder contain the java code.
+2. taggers contain POS(Psrt Of Speech) tagger.
+3. database is in .txt files 
+	i) Sports dataset   - (nounspo, adjspo, verbspo).
+	ii)Politics dataset - (nounpol, adjpol, verbpol).
+
+
+Working ->
+	Miner.java class (src/miner) is starting file of project.
+	PrimitiveClassifier calculate all calculation and classify.
+	EditDistance use to calculate edit distance.
+	MatrixOp for matrix operation like determinant, multiply, transpose.
+	UPDATE use after classification to add classify data to database. 
+	 
